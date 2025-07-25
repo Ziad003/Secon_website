@@ -115,6 +115,7 @@ main{
 
 .plants-lover{
     display: flex;
+    margin-bottom: 133px;
 }
 .plants-lover .batch{
     height: 268px;
@@ -137,10 +138,9 @@ main{
 }
 .plant-lover-description{
     width: 540px;
-}
-.plant-lover-description{
     margin: 38px 0px;
 }
+
 .plant-lover-description li{
     margin: 20px 0px;
 }
@@ -153,6 +153,23 @@ main{
 .plant-lover-description li{
     font-size: 22px;
 }
+.deals-container{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.deals-container p{
+    font-size: 22px;
+    width: 888px;
+    margin: 0 auto;
+}
+.deals-container h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin:0;
+    margin-bottom: 16px;
+}
+
+
 @media screen and (max-width:576px){
     /* header section */
     .vanish{
