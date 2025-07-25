@@ -147,8 +147,77 @@ main{
 .plant-lover-description h3{
     font-size: 50px;
     font-weight: bold;
+    max-width: 430px;
 
 }
 .plant-lover-description li{
     font-size: 22px;
+}
+@media screen and (max-width:576px){
+    /* header section */
+    .vanish{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        margin: 13px 16px 28px 16px;
+    }
+    .logo-container{
+    width: 63px;
+    height: 38px;
+}
+    .hero-container{
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin-bottom: 1px;
+    }
+    .hero-container img{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 24px;
+    }
+    .hero-description{
+        width: 100%;
+        text-align: start;
+        margin-bottom: 65px;
+    }
+    .plants-container{
+        margin-bottom: 41px;
+    }
+
+    .plant-images-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plants-description p{
+    margin:16px 28px 28px 28px;
+    }
+
+    .plants-lover{
+        flex-direction: column;
+    }
+    .plant-image{
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .plant-lover-description{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 18px;
+        border: 1px solid;
+    }
+    .plant-lover-description h3{
+        font-size: 24px;
+        margin: 0;
+        position: relative;
+        margin-left: 15px;
+        
+    }
+    .plant-lover-description li{
+        font-size: 14px;
+    }
+
 }
