@@ -1,4 +1,154 @@
 
 header{
-    max-width: 1140;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.logo-container{
+    width: 135px;
+    height: 82px;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+.home-link{
+    font-weight: bold ;
+}
+
+/* shared css */
+#light-link{
+    color: rgba(137, 135, 161, 1);
+}
+.light-font{
+    color: rgba(0, 0, 0, 0.5);
+}
+.primary-color{
+    color: rgba(233, 90, 8, 1);
+}
+.plants-button{
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+}
+.plants-description h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-description p{
+    font-size: 22px;
+}
+/* shared css */
+
+.hero-container{
+    display: flex;
+    align-items: end;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.hero-description{
+    width: 570px;
+    
+}
+.hero-title{
+    font-size: 65px;
+}
+.hero-description p{
+    font-size: 22px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.plants-container{
+    text-align: center;
+    margin-bottom: 210px;
+}
+.plants-container h3{
+    margin: 0px;
+}
+
+.plant-images-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.plant-images-container button{
+    font-weight: 600;
+}
+.plant-images-container img{
+    width: 100%;
+}
+.plant button{
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+}
+.plant p{
+    font-size: 22;
+    
+}
+.plants-description p{
+    margin:16px 126px 49px 126px;
+}
+.plant p .price{
+    font-weight: bold;
+}
+
+
+.plants-lover{
+    display: flex;
+}
+.plants-lover .batch{
+    height: 268px;
+    width: 286px;
+    position: relative;
+    margin-top: -120px;
+    margin-left: -190px;
+}
+.plants-lover .batch img{
+    width: 100%;
+}
+.plant-image{
+    width: 540px;
+    height: 597px;
+
+}
+.plant-image img{
+   height: 100%;
+   width: 100%;
+}
+.plant-lover-description{
+    width: 540px;
+}
+.plant-lover-description{
+    margin: 38px 0px;
+}
+.plant-lover-description li{
+    margin: 20px 0px;
+}
+.plant-lover-description h3{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.plant-lover-description li{
+    font-size: 22px;
 }

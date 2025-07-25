@@ -4,26 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Second Website</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div>
+            <div class="logo-container">
                 <img src="./assets/logo.png" alt="">
             </div>
             <div>
-                <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>About us</li>
-                    <li><span class="cart">🛒</span> Cart($56)</li>
+                <ul class="links">
+                    <li class="vanish"><a class="home-link" href="#">Home</a></li>
+                    <li class="vanish"><a id="light-link" href="#">Shop</a></li>
+                    <li class="vanish"><a id="light-link" href="#">About us</a></li>
+                    <li><a href=""><span class="cart">🛒</span> Cart($56)</a></li>
                 </ul>
             </div>
         </nav>
-    </header>
+        <div class="hero-container">
+            <div class="hero-description">
+                <h1 class="hero-title">ALWAYS <span class="primary-color">FRESH <br>FLOWERS</span></h1>
+                <p class="light-font">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                </p>
+            </div>
+            <div class="hero-image-container">
+                <img src="./assets/hero-flower.png" alt="">
+            </div>
+        </div>
+        </header>
     <main>
+         <div class="plants-container">
+            <div class="plants-description">
+                <h3><span class="primary-color">Our</span> Plants</h3>
+                <p class="light-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="plant-images-container">
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+                <div class="plant">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p>Lily Blossom <br><span class="price">20 USD</span></p>
+                    <button class="plants-button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="plants-lover">
+            <div class="plant-image">
+                <img src="./assets/flower-store.png" alt="">
+            </div>
+            <div class="batch vanish">
+                <img src="./assets/trusted-badge.png" alt="">
+            </div>
+            <div class="plant-lover-description">
+                <h3>Flower & Plants</h3>
+                <ul>
+                    <li class="light-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="light-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="light-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </div>
 
     </main>
 </body>
