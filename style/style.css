@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -44,6 +48,9 @@ nav .links{
 #light-link{
     color: rgba(137, 135, 161, 1);
 }
+.light-link2{
+    color:rgba(107, 114, 128, 1)
+}
 .light-font{
     color: rgba(0, 0, 0, 0.5);
 }
@@ -78,6 +85,9 @@ nav .links{
 }
 .hero-description p{
     font-size: 22px;
+}
+.hero-description h1{
+    margin-bottom: 13px;
 }
 
 main{
@@ -152,6 +162,7 @@ main{
 
 .plant-lover-description li{
     margin: 20px 0px;
+    font-size: 22px;
 }
 .plant-lover-description h3{
     font-size: 50px;
@@ -159,8 +170,8 @@ main{
     max-width: 430px;
 
 }
-.plant-lover-description li{
-    font-size: 22px;
+.plant-lover-description ul{
+    padding-left: 30px;
 }
 
 
@@ -278,6 +289,10 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .input-container{
     display: flex;
@@ -294,6 +309,9 @@ main{
     font-size: 50px;
     font-weight: bold;
     color: white;
+}
+.search-container .search-title{
+    margin-bottom: 23px;
 }
 .input-container button{
     border: none;
@@ -384,6 +402,8 @@ footer{
         width: 100%;
         text-align: start;
         margin-bottom: 65px;
+        margin-top: 28px;
+        padding: 0px 16px;
     }
     .plants-container{
         margin-bottom: 41px;
@@ -412,12 +432,16 @@ footer{
     .plant-lover-description h3{
         font-size: 24px;
         margin: 0;
+        
         position: relative;
-        margin-left: 15px;
+
         
     }
     .plant-lover-description li{
         font-size: 14px;
+    }
+    .plant-lover-description ul{
+        padding-left: 25px;
     }
     .collage-images{
          display: flex;
@@ -475,5 +499,8 @@ footer{
         padding-left: 16px;
         padding-right: 16px;
         gap: 0px;
+    }
+    .footer-description-container{
+        margin-bottom: 20px;
     }
 }
