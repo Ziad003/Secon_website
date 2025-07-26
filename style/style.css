@@ -1,4 +1,13 @@
 
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 header{
     max-width: 1140px;
     margin: 0 auto;
@@ -260,10 +269,36 @@ main{
 .search-container{
     background-image: 
     linear-gradient(rgba(7, 51, 79, 0.4),rgba(7, 51, 79, 0.4)),
-    url("../assets/news-letter-bg.png")
-    ;
+    url("../assets/news-letter-bg.png");
+    height: 533px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+.input-container{
+    display: flex;
+    gap: 0;
+}
+.search-container .search-title h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.input-container button{
+    border: none;
+    width: 11rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(233, 90, 8, 1);
+}
+.input-container input{
+    border: none;
+    width: 40rem;
+    height: 50px;
+}
 
 @media screen and (max-width:576px){
     /* header section */
@@ -368,6 +403,17 @@ main{
     .span-image .span-normal{
         font-size: 16px;
     }
-    
-
+    .search-container{
+        height: 275px;
+    }
+    .search-container .search-title h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .search-container .input-container input{
+        width: 218px;
+    }
+    .search-container .input-container button{
+        width: 103px;
+    }
 }
