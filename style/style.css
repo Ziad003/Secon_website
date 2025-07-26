@@ -283,6 +283,10 @@ main{
     display: flex;
     gap: 0;
 }
+.input-container button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
 .search-container .input-container input{
     padding-left: 20px;
 }
